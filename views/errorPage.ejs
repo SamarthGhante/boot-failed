@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unauthorized</title>
+    <link rel="stylesheet" href="/stylesheets/errorPage.css">
+</head>
+
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    <div class="terminal">
+        <h1>Error <span class="errorcode"><%= errorCode %></span></h1>
+        <p class="output"><%= errorMessage %></p>
+        <p class="output"><%= errorFallback %><a href="/e8e53a51ba308caf79e4628357787f65"><%= errorFallbackRoute %></a>.</p>
+        <p class="output">Good luck.</p>
+    </div>
+</body>
+
+</html>

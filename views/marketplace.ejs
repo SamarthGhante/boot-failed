@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroShop | Upgrade Your Ram</title>
+    <link rel="icon" type="image/x-icon" href="/images/chip.png">
+    <link rel="stylesheet" href="/stylesheets/marketplace.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script type="text/javascript" src="/javascripts/marketplace.js"></script>
+</head>
+
+<body>
+    <div class="wallet-background">
+        <h1>Wallet Balance: $5</h1>
+    </div>
+    <div class="card">
+        <div class="card-img"></div>
+        <div class="card-title">RAM(512MB)</div>
+        <div class="card-price"><span>$</span> <span id="itemPrice">8</span></div>
+        <div class="item-counter">
+            <button onclick="decrement()">-</button>
+            <input type="number" id="itemCounter" value="1" min="1" readonly />
+            <button onclick="increment()">+</button>
+        </div>
+        <div id="finalPrice" class="card-price"><span>Final Price: $</span> 8</div>
+        <button class="card-btn" onclick="buyNow()">Buy Now</button>
+    </div>
+</body>
+
+</html>

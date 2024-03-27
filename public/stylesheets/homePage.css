@@ -1,0 +1,31 @@
+::selection {
+    background: darkblue;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+body {
+    background-color: #000;
+    color: #88ff00;
+    font-family: Inconsolata,monospace;
+    font-size: 12px;
+}
+
+#terminal{
+    margin-left:20px;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.4);
+    width:400px;
+    font: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: inherit; 
+}
+A,.highlight{
+  color: red;
+}
+.notice {
+  color: red;
+}

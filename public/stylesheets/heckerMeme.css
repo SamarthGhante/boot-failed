@@ -1,0 +1,27 @@
+body {
+    background: rgb(30, 30, 40);
+}
+
+canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+    filter: blur(1px);
+    border-radius: 10px;
+}
+
+div {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 400px;
+    margin-left: -300px;
+    margin-top: -200px;
+    background: rgba(0, 0, 0, 0);
+    z-index: 5;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
